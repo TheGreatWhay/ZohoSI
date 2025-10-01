@@ -10,6 +10,7 @@ class CRMWrapper:
             "Content-Type": "application/json"
         }
 
+
     def push_new_deal_data(self, dealId: int, data: dict) -> dict:
         """
         Push new data to existing deal in Zoho CRM
